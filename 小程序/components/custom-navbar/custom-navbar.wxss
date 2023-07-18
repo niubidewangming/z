@@ -1,0 +1,61 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header {
+  background: #272a3b;
+  width: 100%;
+  height: 88rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 20px;
+}
+
+.info-count {
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 12rpx;
+  position:absolute;
+  top: 0;
+  right:-10px;
+  padding: 4rpx 8rpx;
+  border-radius: 50%;
+  margin-right: 8rpx;
+}
+
+.info-icon {
+  /* position: fixed;
+  right: 40px; */
+  width: 40rpx;
+  height: 40rpx;
+}
+.navbar {
+  height: 44px;
+  background-color: #0000FF;
+  text-align: center;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 44px;
+  color: #78be00;
+  font-weight: bold;
+}

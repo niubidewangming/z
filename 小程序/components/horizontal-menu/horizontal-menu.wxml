@@ -1,0 +1,9 @@
+<view class="horizontal-menu">
+  <block wx:for="{{menuList}}" wx:key="index">
+    <view class="menu-item">
+      <image class="menu-icon" src="{{item.icon}}" mode="aspectFit"></image>
+      <text class="menu-label">{{item.label}}</text>
+    </view>
+  </block>
+</view>
+

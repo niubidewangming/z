@@ -1,0 +1,6 @@
+<custom-navbar title="{{greetingText}}"></custom-navbar>
+<swiper-image imageList="{{imageList}}">{{imageList}}</swiper-image>
+<horizontal-menu menuList="{{menuList}}"> </horizontal-menu>
+<menu-grid menuList="{{featureList}}" ></menu-grid>
+<bottom-tab activeIndex="{{2}}" tabList="{{tabList}}" bind:tabclick="handleTabClick"></bottom-tab>
+

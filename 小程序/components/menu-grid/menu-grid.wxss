@@ -1,0 +1,99 @@
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  padding: 10rpx;
+}
+
+.menu-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 10px 0;
+  border: 1px solid rgb(240, 230, 230);
+  box-sizing: border-box;
+  height: 100%;
+}
+.menu-item-inner {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.menu-icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+
+.menu-label {
+  margin-top: 8rpx;
+  font-size: 26rpx;
+  color: #333;
+}
+.modal-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal-container {
+  background-color: #fff;
+  width: 80%;
+  margin: a;
+  border-radius: 12rpx;
+  overflow: hidden;
+  animation: modal-animation 0.3s ease-out;
+  z-index: 10000;
+}
+
+.modal-title {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  color: green;
+  background: #272a3b;
+  font-size: 28rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+
+.modal-menu {
+  padding: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.modal-menu-item {
+  width: calc(33.3333% - 10rpx);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.modal-menu-icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.modal-menu-label {
+  margin-top: 8rpx;
+  font-size: 24rpx;
+  color: #333;
+}

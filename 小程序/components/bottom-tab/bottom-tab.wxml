@@ -1,0 +1,13 @@
+<!--自定义底部导航栏  -->
+<view class="bottom-tab-bar">
+  <block wx:for="{{tabList}}" wx:key="index">
+    <view class="tab-item" bindtap="handleTabClick" data-index="{{index}}">
+      <view class="{{ index === activeIndex ? 'text-con' : ''}}">
+        <image class="tab-icon {{index === activeIndex ? 'active' : ''}}" src="{{item.icon}}"></image>
+      </view>
+      <text class="tab-label {{index === activeIndex ? 'label-active':''}}">{{item.label}}</text>
+
+
+    </view>
+  </block>
+</view>

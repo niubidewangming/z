@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "custom-navbar": "/components/custom-navbar/custom-navbar",
+    "swiper-image":"/components/swiper-image/swiper-image",
+    "horizontal-menu":"/components/horizontal-menu/horizontal-menu",
+    "menu-grid":"/components/menu-grid/menu-grid",
+    "bottom-tab":"/components/bottom-tab/bottom-tab"
+  },
+  "navigationStyle": "custom"
+}

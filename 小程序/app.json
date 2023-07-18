@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/work/work",
+    "pages/logs/logs",
+    "pages/work",
+    "pages/index/index",
+    "pages/assistant/assistant",
+    "pages/common/common",
+    "pages/analysis/analysis",
+    "pages/mine/mine",
+    "components/custom-navbar/custom-navbar"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000080"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,14 @@
+<!-- Nav组件 -->
+<view class="fixed">
+  <view class="home-top" style="height: {{navH}}rpx;">
+    <view class="header">
+      <text class="title">{{title}}</text>
+      <view class="info-container">
+        <image class="info-icon" src="/assets/tabNav1.jpg"></image>
+        <text class="info-count" >{{infoCount}}77</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view style="height: {{navH}}rpx ;background-color: rebeccapurple;" />

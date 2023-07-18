@@ -1,0 +1,8 @@
+<!-- 轮播图组件 -->
+<swiper class="swiper-container" indicator-dots="{{true}}">
+  <block wx:for="{{imageList}}" wx:key="index">
+    <swiper-item class="swiper-item">
+      <view class="swiper-image" style="background-image: url({{item}})"></view>
+    </swiper-item>
+  </block>
+</swiper>
